@@ -31,7 +31,7 @@ function resolveLayout(
     afterBody: overrides.afterBody ?? sharedDefaults.afterBody ?? [],
     left: overrides.left ?? sharedDefaults.left ?? [],
     right: overrides.right ?? sharedDefaults.right ?? [],
-    footer: overrides.footer ?? sharedDefaults.footer!,
+    footer: overrides.footer ?? sharedDefaults.footer,
     frame,
   }
 }
@@ -53,7 +53,7 @@ function collectComponents(
       ...layout.left,
       ...layout.right,
       layout.footer,
-    ]
+    ].filter(Boolean) as QuartzComponent[]
     for (const c of all) {
       seen.add(c)
     }

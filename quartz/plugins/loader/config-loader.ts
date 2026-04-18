@@ -659,7 +659,7 @@ export async function loadQuartzLayout(layoutOverrides?: {
     const pt = byPageType[pageType]
     if (!pt.head) pt.head = head
     if (!pt.header) pt.header = []
-    if (footer && !pt.footer) pt.footer = footer
+    if (footer && pt.footer === undefined) pt.footer = footer
   }
 
   const mergedDefaults = { ...defaultLayout, ...layoutOverrides?.defaults }

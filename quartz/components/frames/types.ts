@@ -23,7 +23,7 @@ export interface PageFrameProps {
   /** Right sidebar components */
   right: QuartzComponent[]
   /** Footer component */
-  footer: QuartzComponent
+  footer?: QuartzComponent | false
 }
 
 /**
