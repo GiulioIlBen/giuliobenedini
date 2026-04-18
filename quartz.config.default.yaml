@@ -47,8 +47,6 @@ plugins:
       defaultDateType: modified
       priority:
         - frontmatter
-        - git
-        - filesystem
     order: 10
   - source: github:quartz-community/syntax-highlighting
     enabled: true
@@ -67,9 +65,6 @@ plugins:
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
     order: 40
-  - source: github:quartz-community/table-of-contents
-    enabled: true
-    order: 50
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
