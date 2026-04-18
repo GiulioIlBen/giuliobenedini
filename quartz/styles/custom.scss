@@ -1,3 +1,11 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Improve readability - v1
+.page article {
+  font-size: 120.0%;
+}
+.page {
+  max-width: 80%;
+}
