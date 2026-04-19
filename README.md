@@ -2,6 +2,14 @@
 
 Hi! This is the source code of my personal website. 
 
+## Snippets
+
+Remmeber:
+```bash
+npx quartz build --serve
+npx quartz sync
+```
+
 ## License
 
 * Content in the `content/` folder is licensed under
