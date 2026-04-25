@@ -8,6 +8,8 @@ Remmeber:
 ```bash
 npx quartz build --serve
 npx quartz sync
+npx quartz upgrade
+npx quartz plugin install --latest
 ```
 
 ## License
