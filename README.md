@@ -6,10 +6,11 @@ Hi! This is the source code of my personal website.
 
 Remmeber:
 ```bash
-npx quartz build --serve
-npx quartz sync
+npm install
 npx quartz upgrade
 npx quartz plugin install --latest
+npx quartz build --serve
+npx quartz sync
 ```
 
 ## License
