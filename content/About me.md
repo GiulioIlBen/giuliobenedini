@@ -5,7 +5,7 @@ publish: true
 I am a materials engineer, theoretical chemist, machine learning engineer and a python dev.
 
 
-# Professional Experience
+## Professional Experience
 
 - 2023-now, PhD student at VU university, under supervision of [Prof. Dr. Lucas Vischer](https://sites.google.com/view/qcvu/home), within [EuSpecLab Marie-Curie doctoral network](https://euspeclab.cnrs.fr/)
     - 2026-now, research assistant in Prof. Dr. Silvana Botti and Prof. Dr. Miguel Marques groups in [ICAMS](https://www.icams.de/institute/departments-groups/), Bochum, DE.
@@ -16,6 +16,6 @@ I am a materials engineer, theoretical chemist, machine learning engineer and a 
     - 2023, 4 months, visiting reasercher in Prof. Dr. Patrick Rinke research group at Aalto, machine learning for materials science.
 - 2021, 6 months, researcher at [IMEC](https://www.imec-int.com/en/what-we-offer/development/silicon-nitride) on a-SiN waveguide for Raman on chip device, Lueven, BE.
 
-# Education
+## Education
 
 - 2016-2021. M. Sc., Materials and Nanotechnology Engineering, Politecnico di Milano, IT.
