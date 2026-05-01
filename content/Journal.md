@@ -2,4 +2,4 @@
 publish: true
 ---
 
-![[journal.base]]
+![[journal-base.base]]

@@ -2,4 +2,4 @@
 publish: true
 ---
 
-![[projects.base]]
+![[projects-base.base]]
