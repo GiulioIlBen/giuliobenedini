@@ -22,4 +22,8 @@ I am a materials engineer, theoretical chemist, machine learning engineer and a 
 
 ***
 
+[[prova.pdf|cv]]
+
+***
+
 giuliobenedini\[at\]gmail.com, [GitHub](https://github.com/GiulioIlBen), [LinkedIn](https://www.linkedin.com/in/giulio-benedini-60a7a4192/?locale=en-US)
