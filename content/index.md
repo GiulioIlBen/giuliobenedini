@@ -12,5 +12,6 @@ Links to explore:
 - [[About me]]
 
 
+***
 
-[GitHub](https://github.com/GiulioIlBen), [LinkedIn](https://www.linkedin.com/in/giulio-benedini-60a7a4192/?locale=en-US)
+giuliobenedini\[at\]gmail.com, [GitHub](https://github.com/GiulioIlBen), [LinkedIn](https://www.linkedin.com/in/giulio-benedini-60a7a4192/?locale=en-US)

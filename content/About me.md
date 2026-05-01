@@ -19,3 +19,7 @@ I am a materials engineer, theoretical chemist, machine learning engineer and a 
 ## Education
 
 - 2016-2021. M. Sc., Materials and Nanotechnology Engineering, Politecnico di Milano, IT.
+
+***
+
+giuliobenedini\[at\]gmail.com, [GitHub](https://github.com/GiulioIlBen), [LinkedIn](https://www.linkedin.com/in/giulio-benedini-60a7a4192/?locale=en-US)
