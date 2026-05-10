@@ -4,14 +4,15 @@ Hi! This is the source code of my personal website.
 
 ## Snippets
 
-Remmeber:
+From this repository root:
 ```bash
-npm install
-npx quartz upgrade
-npx quartz plugin install --latest
-npx quartz build --serve
-npx quartz sync
+npm install #1
+npm run quartz -- upgrade #2
+npm run quartz -- plugin install --latest #3
+npm run quartz -- build --serve #4
+npm run quartz -- sync #5
 ```
+Restart fresh: delete the `.quartz` folder and rerun `#2` and `#3`.
 
 ## License
 
