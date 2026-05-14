@@ -1,5 +1,0 @@
----
-publish: true
----
-
-![[BaseProj.base]]

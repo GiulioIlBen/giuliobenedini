@@ -19,5 +19,5 @@ Restart fresh: delete the `.quartz` folder and rerun `#2` and `#3`.
 * Content in the `content/` folder is licensed under
   CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
 
-* This project is based on Quartz (https://quartz.jzhao.xyz/),
+* This project is based on [Quartz V5](https://quartz-community-v5.quartz-1h4.pages.dev/),
   which is licensed under the MIT License.

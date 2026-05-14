@@ -1,5 +1,5 @@
 ---
 publish: true
+title: Journal
 ---
 
-![[basePosts.base]]
