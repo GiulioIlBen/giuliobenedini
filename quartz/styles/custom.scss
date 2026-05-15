@@ -4,8 +4,54 @@
 
 // Improve readability - v1
 .page article {
-  font-size: 120.0%;
+  font-size: 120%;
 }
 .page {
   max-width: 80%;
+}
+
+// Keep the layout visually continuous: no panel dividers or alternating
+// backgrounds between the left sidebar, search area, content, and right sidebar.
+body,
+#quartz-root,
+.page,
+.page > #quartz-body,
+.page > #quartz-body .sidebar,
+.page > #quartz-body .center,
+.page > #quartz-body .page-header,
+.page > #quartz-body footer,
+.search,
+.search > .search-button {
+  background: var(--light);
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.page > #quartz-body,
+.page > #quartz-body *,
+.popover {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--bodyFont);
+}
+
+// Remove the gray highlight behind regular [[wikilinks]].
+a.internal:not(.tag-link):not(:has(> img)) {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+// Keep page-list dates together, e.g. "Apr 27, 2026".
+.section .meta,
+.section .meta time {
+  white-space: nowrap;
+  text-wrap: nowrap;
 }
