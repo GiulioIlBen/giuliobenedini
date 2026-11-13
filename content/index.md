@@ -9,6 +9,7 @@ Currently, I am a Marie-curie PhD candidate in theoretical chemistry at VU Amste
 Links to explore:
 - [[About me]]
 - [[posts/index|Journal]]
+- [[projects/index|Projects]]
 
 
 ***

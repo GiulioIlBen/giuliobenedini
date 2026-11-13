@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"e0eb2376e195fb80","type":"text","text":"HTML","x":930,"y":-60,"width":120,"height":90,"color":"1"},
+		{"id":"7c76ad21ea0a51a0","x":200,"y":-60,"width":380,"height":300,"type":"text","text":"## Example\n```css\n/* CSS ruleset */\nselector {\n  /* Declaration (style rule) */\n  property: value;\n}\n```"},
+		{"id":"2ff1473febebfc55","type":"text","text":"CSS","x":0,"y":0,"width":120,"height":90,"color":"1"},
+		{"id":"4dcb27131cb457bf","type":"text","text":"Class selector","x":660,"y":-60,"width":190,"height":90,"color":"2"},
+		{"id":"da29a64407893aa0","type":"text","text":"Style rules (declarations)","x":660,"y":280,"width":230,"height":110,"color":"2"},
+		{"id":"1b43d367687bfc55","x":0,"y":-190,"width":300,"height":110,"type":"text","text":"Source: [CSS-Tricks, CSS selectors](https://css-tricks.com/css-selectors/)"},
+		{"id":"1a47888fb5a6f394","type":"text","text":"## Common Selectors\n```css\n/* Universal */\n* {\n  box-sizing: border-box;\n}\n\n/* <Type> or Tag */\np {\n  margin-block: 1.5rem;\n}\n\n/* Classname */\n.class {\n  text-decoration: underline;\n}\n\n/* id= */\n#id {\n  font-family: monospace;\n}\n\n/* Relational */\nli:has(a) {\n  display: flex;\n}\n```","x":930,"y":160,"width":380,"height":700},
+		{"id":"b166a3d41a426a2e","type":"text","text":"```html\n<article id=\"featured\" class=\"card\">\n  <!-- Article 1 -->\n</article>\n```\n`.card` selects by class (reusable), `#featured` by id (unique per page).","x":1110,"y":-150,"width":460,"height":250},
+		{"id":"45f820096454fed1","type":"text","text":"## Common Combinators\n```css\n/* Descendant: every h1 inside a header */\nheader h1 { }\n\n/* Child: h1 directly inside a header */\nheader > h1 { }\n\n/* General sibling: every p after an h1\n   (same parent) */\nh1 ~ p { }\n\n/* Adjacent sibling: p right after an h1 */\nh1 + p { }\n\n/* Selector list (not a combinator):\n   same rules for h1 and p */\nh1, p { }\n```","x":1370,"y":160,"width":480,"height":560},
+		{"id":"4a53d43b197d7d17","x":660,"y":440,"width":240,"height":400,"type":"text","text":"## Properties\n`color`, `margin`, `padding`, `display`, `font-family`, …\n\nEach declaration is `property: value;`"}
+	],
+	"edges":[
+		{"id":"c4629bd7654bb3c8","fromNode":"4dcb27131cb457bf","fromSide":"right","toNode":"e0eb2376e195fb80","toSide":"left"},
+		{"id":"9e66df920dce3f39","fromNode":"e0eb2376e195fb80","fromSide":"right","toNode":"b166a3d41a426a2e","toSide":"left"},
+		{"id":"646b75eec2b94d30","fromNode":"2ff1473febebfc55","fromSide":"right","toNode":"7c76ad21ea0a51a0","toSide":"left"},
+		{"id":"1a2f54677d55faa2","fromNode":"7c76ad21ea0a51a0","fromSide":"right","toNode":"4dcb27131cb457bf","toSide":"left"},
+		{"id":"6794012c9259d4ae","fromNode":"7c76ad21ea0a51a0","fromSide":"right","toNode":"da29a64407893aa0","toSide":"left"},
+		{"id":"e63583645e13187e","fromNode":"2ff1473febebfc55","fromSide":"top","toNode":"1b43d367687bfc55","toSide":"bottom"},
+		{"id":"7ab83900df0678a3","fromNode":"4dcb27131cb457bf","fromSide":"bottom","toNode":"1a47888fb5a6f394","toSide":"top"},
+		{"id":"7ea6c107d30d5dec","fromNode":"1a47888fb5a6f394","fromSide":"right","toNode":"45f820096454fed1","toSide":"left"},
+		{"id":"812ca5b7d565ffbd","fromNode":"da29a64407893aa0","fromSide":"bottom","toNode":"4a53d43b197d7d17","toSide":"top"}
+	]
+}
