@@ -20,7 +20,7 @@ I am a curious and extrovert person who is fascinated by complex problems. I am 
 | 2021, 6 months | a-SiN waveguide for Raman on chip device | Researcher at LifeLab - [IMEC](https://www.imec-int.com/en/what-we-offer/development/silicon-nitride), Leuven, BE. <br>Advisor: Carlo Casari. <br>Co-advisors: Aadhar Jain and Pol Van Dorpe | Lab experience on Witec R300 confocal Raman spectrometer and Matlab software simulation and analysis for Raman spectra. |
 | 2016-2021 | BSc & MSc in Materials and Nanotechnology Engineering (110/110 cum laude) | Politecnico di Milano, Milan, IT | Learning the world of materials, from manufacturing, macroscopic to the nano scale. |
 
-## Me
+## Free time
 
 I enjoy:
 - basketball, beach-volley, frisbee and biking
