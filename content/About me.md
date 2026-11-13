@@ -6,6 +6,8 @@ I am a materials engineer, theoretical chemist, machine learning engineer and py
 
 I am a curious and extrovert person who is fascinated by complex problems. I am always eager to expand my knowledge and listen to others. I’m a team player, in the work environment as well as on the basketball court. Focused on improving rather than settling down. Loving kindness within its limitations.
 
+[[cv.canvas]]
+
 ## Professional highlights
 
 | When | What | Where | Description |
